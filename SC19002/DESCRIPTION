@@ -1,0 +1,17 @@
+Package: SC19002
+Type: Package
+Title: The final work of the statistic computing
+Version: 0.1.0
+Author: Yiming Li
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL(>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp (>= 1.0.3), DAAG, knitr, rmarkdown,Ball,boot,bootstrap,stats,MASS, microbenchmark,GeneralizedHyperbolic,nloptr,parallel
+LinkingTo: Rcpp
+VignetteBuilder: knitr
+RoxygenNote: 7.0.2
+URL: http://github.com/SC19002/SC19002
+BugReports: http://github.com/SC19002/SC19002/issues
